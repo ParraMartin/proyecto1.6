@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">menu del lado</string>
+    <string name="navegation_drawer_open">Open navegation drawer</string>
+    <string name="navegation_drawer_Close">Close navegation drawer</string>
+</resources>

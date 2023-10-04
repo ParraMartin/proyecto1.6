@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Procesador/CPU"
+            android:icon="@drawable/ic_icon1"/>
+        <item
+            android:id="@+id/nav_Cycling"
+            android:title="Memoria RAM"
+            android:icon="@drawable/ic_icon2"/>
+        <item
+            android:id="@+id/nav_bus"
+            android:title="Tarjeta gráfica / GPU"
+            android:icon="@drawable/ic_icon3"/>
+        <item
+            android:id="@+id/nav_plane"
+            android:title="Almacenamiento"
+            android:icon="@drawable/ic_icon4"/>
+
+    </group>
+
+        <item android:title="perifricos">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_login"
+                android:title="Placa madre"
+                android:icon="@drawable/ic_icon5"/>
+
+            <item
+                android:id="@+id/nav_Profile"
+                android:title="Fuente de alimentación"
+                android:icon="@drawable/ic_icon6"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Monitor"
+                android:icon="@drawable/ic_icon7"/>
+            </group>
+
+        </menu>
+        </item>
+
+
+    <item android:title="componentes Extra">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:title="Gabinete / Torre de PC"
+                android:icon="@drawable/ic_icon8"/>
+
+            <item
+                android:id="@+id/nav_rate"
+                android:title="Refrigeración y ventiladores"
+                android:icon="@drawable/ic_icon9"/>
+
+        </menu>
+
+    </item>
+
+</menu>
